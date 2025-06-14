@@ -13,6 +13,11 @@ int largest = Math.max(a,Math.max(b,c));
 System.out.println("Largest of three is "+largest);
 System.out.println("Sum with largest:"+(a+b+c));
 
+int sum = a + b + c;
+double avg = sum / 3.0;
+
+System.out.println("Average :" + avg);
+
 }
 
 
